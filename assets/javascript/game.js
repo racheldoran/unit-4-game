@@ -1,6 +1,6 @@
 
   
-    var targetNumber = 50;
+    var targetNumber = 53;
   
     $("#number-to-guess").text(targetNumber);
   
@@ -9,7 +9,7 @@
     // Now for the hard part. Creating multiple crystals each with their own unique number value.
   
     // We begin by expanding our array to include four options.
-    var numberOptions = [21, 9, 4, 9];
+    var numberOptions = [21, 10, 21, 3];
   
     // Next we create a for loop to create crystals for every numberOption.
     for (var i = 0; i < numberOptions.length; i++) {
@@ -58,12 +58,3 @@
       }
   
     });
-  
-    </script>
-  </body>
-  </html>
-  
-
-    
-</body>
-</html>
