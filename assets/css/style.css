@@ -34,11 +34,12 @@ body{
   .wins, {
     width: 100px;
     padding: 25px;
-    background:tan;
     margin-left:4px;
     height:10px;
-   
-  }
+    float:left;
+    
+   }
+
   .losses {
     width: 100px;
     padding: 25px;
