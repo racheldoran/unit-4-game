@@ -29,7 +29,7 @@ body{
    background:limegreen;
    width: 150px;
    height:100px;
-   float:left;
+   display:table;
   }
 
   .wins {
@@ -38,7 +38,7 @@ body{
     background: orange;
     margin-left:4px;
     height:10px;
-    float:left;
+    
    }
 
   .losses {
@@ -47,17 +47,17 @@ body{
     background:orange;
     margin-left:4px;
     height:10px;
-    float: left;
   }
 
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
   .total-score{
     background: white;
     height:50px;
+    margin-top:10px;
+    width:150px;
+  }
+
+  .the-number{
+    background:limegreen;
   }
 
 
