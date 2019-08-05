@@ -10,12 +10,12 @@ body{
   .intro{
     margin:auto;
     background:tan;
-    font: teal;
+    color: teal;
   }
   
   h1 {
-    margin:auto;
+    margin:20px;
     padding:20px;
     background: orangered;
-    font:white;
+    color:white;
   }
