@@ -7,15 +7,15 @@ body{
     height: 300px;
   }
 
-  #h1 {
-    margin:auto;
-    padding:20px;
-    background: orangered;
-    font:white;
-  }
-
   .intro{
     margin:auto;
     background:tan;
     font: teal;
+  }
+  
+  h1 {
+    margin:auto;
+    padding:20px;
+    background: orangered;
+    font:white;
   }
