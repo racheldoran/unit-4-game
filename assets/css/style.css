@@ -11,6 +11,7 @@ body{
     margin:auto;
     background:tan;
     color: teal;
+    padding:20px;
   }
   
   h1 {
@@ -18,4 +19,8 @@ body{
     padding:20px;
     background: orangered;
     color:white;
+  }
+  #number-to-guess {
+   font-size:20px;
+   background:limegreen;
   }
