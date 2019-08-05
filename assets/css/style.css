@@ -8,19 +8,42 @@ body{
   }
 
   .intro{
-    margin:auto;
+    margin-left:0%;
     background:teal;
     color: white;
     padding:20px;
+    width:350px;
+    
   }
   
   h1 {
-    margin:20px;
-    padding:20px;
+    margin:5px;
+    width:275px;
+    padding:5px;
     background: teal;
     color:white;
   }
   #number-to-guess {
-   font-size:20px;
+   font-size:50px;
    background:limegreen;
+   width: 150px;
+   height:100px;
+   float:left;
+  }
+
+  .wins, {
+    width: 100px;
+    padding: 25px;
+    background:tan;
+    margin-left:4px;
+    height:10px;
+   
+  }
+  .losses {
+    width: 100px;
+    padding: 25px;
+    background:tan;
+    margin-left:4px;
+    height:10px;
+    float: left;
   }
