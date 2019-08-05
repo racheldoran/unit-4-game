@@ -9,6 +9,7 @@ body{
 
   .intro{
     margin-left:0%;
+    margin-bottom:5px;
     background:teal;
     color: white;
     padding:20px;
@@ -31,19 +32,19 @@ body{
    float:left;
   }
 
-  .wins, {
+  .wins {
     width: 100px;
     padding: 25px;
+    background: orange;
     margin-left:4px;
     height:10px;
     float:left;
-    
    }
 
   .losses {
     width: 100px;
     padding: 25px;
-    background:tan;
+    background:orange;
     margin-left:4px;
     height:10px;
     float: left;
