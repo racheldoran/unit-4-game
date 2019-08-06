@@ -1,10 +1,7 @@
-body{
-  background: url("http://catnaps.org/islamic/islamgraphics/lozenge01.png");
-}
 
 .crystal-image {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 
   .intro{
@@ -26,38 +23,44 @@ body{
   }
   #number-to-guess {
    font-size:50px;
-   background:limegreen;
+   background:lavender;
    width: 150px;
    height:100px;
    display:table;
+   float: left;
+
   }
 
   .wins {
     width: 100px;
     padding: 25px;
-    background: orange;
+    background: pink;
     margin-left:4px;
     height:10px;
+    float: left;
     
    }
 
   .losses {
     width: 100px;
     padding: 25px;
-    background:orange;
+    background: pink;
     margin-left:4px;
     height:10px;
+    float: left;
   }
 
   .total-score{
-    background: white;
+    background: seagreen;
     height:50px;
     margin-top:10px;
     width:150px;
+    float:left;
+   
   }
 
   .the-number{
-    background:limegreen;
+    background:slateblue;
   }
 
 
