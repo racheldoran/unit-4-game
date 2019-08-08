@@ -7,8 +7,6 @@
   .intro{
     margin-left:0%;
     margin-bottom:5px;
-    background:teal;
-    color: white;
     padding:20px;
     width:350px;
     
@@ -18,12 +16,11 @@
     margin:5px;
     width:275px;
     padding:5px;
-    background: teal;
-    color:white;
+   
   }
+
   #number-to-guess {
    font-size:50px;
-   background:lavender;
    width: 150px;
    height:100px;
    display:table;
@@ -34,7 +31,6 @@
   .wins {
     width: 100px;
     padding: 25px;
-    background: pink;
     margin-left:4px;
     height:10px;
     float: left;
@@ -44,14 +40,12 @@
   .losses {
     width: 100px;
     padding: 25px;
-    background: pink;
     margin-left:4px;
     height:10px;
     float: left;
   }
 
   .total-score{
-    background: seagreen;
     height:50px;
     margin-top:10px;
     width:150px;
@@ -60,7 +54,7 @@
   }
 
   .the-number{
-    background:slateblue;
+    
   }
 
 
