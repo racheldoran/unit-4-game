@@ -18,11 +18,14 @@ for (var i = 0; i < numberOptions.length; i++) {
   var imageCrystal = $("<img>");
   var imageCrystal2 = $("<img>");
   var imageCrystal3 = $("<img>");
-  var imageCrystal4 = $("<img>")
+  var imageCrystal4 = $("<img>");
 
   // First each crystal will be given the class ".crystal-image".
   // This will allow the CSS to take effect.
   imageCrystal.addClass("crystal-image");
+  imageCrystal2.addClass("crystal-image");
+  imageCrystal3.addClass("crystal-image");
+  imageCrystal4.addClass("crystal-image");
 
   // Each imageCrystal will be given a src link to the crystal image
   imageCrystal.attr("src", "https://img.pngmix.com/pm/crystals/crystals_004.png");
