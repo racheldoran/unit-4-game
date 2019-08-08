@@ -2,11 +2,9 @@
 
 var targetNumber = 45;
 
-
 $("#number-to-guess").text(targetNumber);
 
 var counter = 0;
-
 
 // Now for the hard part. Creating multiple crystals each with their own unique number value.
 
@@ -52,16 +50,15 @@ $(".crystal-image").on("click", function () {
   counter += crystalValue;
 
   // All of the same game win-lose logic applies. So the rest remains unchanged.
-  alert("New score: " + counter);
-  $('#total-score').text(totalScore);
-
+  html("New score: " + counter);
+  $('#total-score').push(totalScore);
+  
   if (counter === targetNumber) {
-    wins++;
-
+    $("#wins").push(wins);
   }
 
   else if (counter >= targetNumber) {
-    alert("You lose!!");
+    $("#losses").push(loses);
   }
 
 });
