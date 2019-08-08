@@ -14,51 +14,48 @@
 </head>
 
 <body>
-  
-        
-        <div class="container">
+
+
+    <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                    <h1>Crystals Collector! </h1>
+            <div class="col-sm-6">
+                <h1>Crystals Collector! </h1>
             </div>
         </div>
-  
-               <div class="row">
-                    <div class="col-md-3">
+     
+            <div class="row">
+            <div class="col-sm-6">
                 <div class="intro">
                     <p>You will be given a random number at the start of the game.
-                    There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                        There are four crystals below. By clicking on a crystal you will add a specific amount of points
                         to your
                         total score
-                    You win the game by matching your total score to a random number, you lose the game if your total
+                        You win the game by matching your total score to a random number, you lose the game if your
+                        total
                         score goes
                         above the random number.
-                    The value each crystal is hidden from you until you click on it 
-                    Each time when the game starts, the game will change the values of each crystal
+                        The value each crystal is hidden from you until you click on it
+                        Each time when the game starts, the game will change the values of each crystal
                 </div>
             </div>
         </div>
         
         <div id="crystals"></div>
+       
+        <div class="row">
+            <div class="col-sm-4">
+                <span id="number-to-guess"></span>
+                <div class="wins">Wins:</div>
+                <div class="losses">Losses:</div>
+                <div class="total-score">Your Total Score is:</div>
+            </div>
+        </div>
+</div>
 
-            <div class="row">
-                <div class="col-md-2">
-                        <span id="number-to-guess"></span>
-            <div class="wins">Wins:</div>
-            <div class="losses">Losses:</div>
-            <div class=the-number></div>
-        </div>
-    </div>
 
-  
-        <div class="col-md-5">
-            <div class="total-score">Your Total Score is:</div>
-        </div>
-        </div>
-   
-            <script type="text/javascript" src="assets/javascript/game.js"></script>
-        
-   
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
 </body>
 
 </html>
