@@ -1,17 +1,17 @@
 $(document).ready(() => {
 
   
-  let randNumber = Math.floor(Math.random() * ((150 - 10) + 1) + 10);
+  var randNumber = Math.floor(Math.random() * ((150 - 10) + 1) + 10);
   $('#randNum').html(randNumber);
 
-  let greenCrystal= Math.floor(Math.random() * 10) + 1;
-  let blueCrystal = Math.floor(Math.random() * 10) + 1;
-  let pinkCrystal = Math.floor(Math.random() * 10) + 1;
-  let yellowCrystal = Math.floor(Math.random() * 10) + 1;
+  var greenCrystal= Math.floor(Math.random() * 10) + 1;
+  var blueCrystal = Math.floor(Math.random() * 10) + 1;
+  var pinkCrystal = Math.floor(Math.random() * 10) + 1;
+  var yellowCrystal = Math.floor(Math.random() * 10) + 1;
 
   
-  let wins = 0; 
-  let losses = 0;  
+  var wins = 0; 
+  var losses = 0;  
 
   let totScore = 0;
   $('#totScore').text(totScore);

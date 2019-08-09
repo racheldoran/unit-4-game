@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
 
-<!--styles-->
-<link rel="stylesheet" type="text.css" href="../Assets/reset.css">
-<link rel="stylesheet" type="text/css" href="./Assets/style.css">
- <!--scripts-->
- <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
- <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" src="assets/css/style.css">
+
+    <!--scripts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" src="assets/css/style.css">
+
+
 </head>
 
 <body>
 
-    <header class="header"><h1>Crystal Collector!</h1></header>
-
-    <main>
+    <header class="header">
+        <h1>Crystal Collector!</h1>
+    </header>
 
     <div class="instructions">
 
@@ -29,21 +30,26 @@
             to your
             total score
             <p>You win the game by matching your total score to a random number, you lose the game if your
-            total
-            score goes
-            above the random number.</p>
+                total
+                score goes
+                above the random number.</p>
             <p>The value each crystal is hidden from you until you click on it
-            Each time when the game starts, the game will change the values of each crystal</p>
+                Each time when the game starts, the game will change the values of each crystal</p>
         </p>
     </div>
 
-    
+
 
     <div class="crystal-array" id="crysArray">
-        <button id="green" class="green-crystal"><img src="https://cdn.leibish.com/media/gemstones/thumb_w800/gemstone-259332-emerald-emerald-green-47d9a.jpg" height="80px"></button>
-        <button id="blue" class="blue-crystal"><img src="https://images-na.ssl-images-amazon.com/images/I/81wCxy9a5TL._SX425_.jpg" height="80px"></button>
-        <button id="yellow" class="yellow-crystal"><img src="http://www.sciencetoystore.com/contents/media/l_crystal_yellow_.jpg" height="80px"></button>
-        <button id="pink" class="pink-crystal"><img src="https://images.catsolonline.com/cache/TK_656072-500x500.jpg" height="80px"></button>
+        <button id="green" class="green-crystal"><img
+                src="https://cdn.leibish.com/media/gemstones/thumb_w800/gemstone-259332-emerald-emerald-green-47d9a.jpg"
+                height="80px"></button>
+        <button id="blue" class="blue-crystal"><img
+                src="https://images-na.ssl-images-amazon.com/images/I/81wCxy9a5TL._SX425_.jpg" height="80px"></button>
+        <button id="yellow" class="yellow-crystal"><img
+                src="http://www.sciencetoystore.com/contents/media/l_crystal_yellow_.jpg" height="80px"></button>
+        <button id="pink" class="pink-crystal"><img src="https://images.catsolonline.com/cache/TK_656072-500x500.jpg"
+                height="80px"></button>
     </div>
 
     <div class="random-number" id="randNum"></div>
@@ -54,16 +60,17 @@
         <div id="totScore">0</div>
     </div>
 
-        <div class="wins-loses">
-            <p>Wins:</p>
-            <p id="wins">0</p>
-            <p>Losses:</p>
-            <p id="losses">0</p>
-        </div>
+    <div class="wins-loses">
+        <p>Wins:</p>
+        <p id="wins">0</p>
+        <p>Losses:</p>
+        <p id="losses">0</p>
+    </div>
 
-    </main>
+    </div>
 
-<script type="text/javascript" src="Untitled-1.js"></script>
+    <script type="text/javascript" src="game.js"></script>
 
 </body>
+
 </html>
