@@ -8,12 +8,11 @@ $(document).ready(() => {
   var blueCrystal = Math.floor(Math.random() * 10) + 1;
   var pinkCrystal = Math.floor(Math.random() * 10) + 1;
   var yellowCrystal = Math.floor(Math.random() * 10) + 1;
-
   
   var wins = 0; 
   var losses = 0;  
 
-  let totScore = 0;
+  var totScore = 0;
   $('#totScore').text(totScore);
 
   function win() {
