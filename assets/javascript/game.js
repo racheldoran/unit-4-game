@@ -18,7 +18,6 @@ $(document).ready(() => {
   function win() {
       wins++;
       $('#wins').text(wins);
-
       reset();
   }
 
