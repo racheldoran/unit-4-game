@@ -6,7 +6,7 @@
   }
 
   body{
-    text-align: center;
+    
     font-family: 'Nunito', sans-serif;
   }
 
@@ -29,8 +29,7 @@
    font-size:50px;
    width: 150px;
    height:100px;
-   display:table;
-   float: left;
+ 
 
   }
 
@@ -39,29 +38,27 @@
     padding: 25px;
     margin-left:4px;
     height:10px;
-    float: left;
+    
     
    }
 
   .losses {
     width: 100px;
     padding: 25px;
-    margin-left:4px;
+    margin-left;
     height:10px;
-    float: left;
+
   }
 
   .total-score{
     height:50px;
     margin-top:10px;
     width:150px;
-    float:left;
+    
    
   }
 
-  .the-number{
-    
-  }
+  
 
 
  

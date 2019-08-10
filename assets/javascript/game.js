@@ -27,7 +27,7 @@ $(document).ready(() => {
       reset();
   }
 
-  $('#green-crystal').click(() => {
+  $('#green').click(() => {
       totScore = totScore + greenCrystal
       $('#totScore').text(totScore);
       if (totScore === randNumber) {
@@ -40,7 +40,7 @@ $(document).ready(() => {
       }
   });
 
-  $('#blue-crystal').click(() => {
+  $('#blue').click(() => {
       totScore = totScore + blueCrystal;
       $('#totScore').text(totScore);
       if (totScore === randNumber) {
@@ -53,7 +53,7 @@ $(document).ready(() => {
       }
   });
 
-  $('#pink-crystal').click(() => {
+  $('#pink').click(() => {
       totScore = totScore + pinkCrystal;
       $('#totScore').text(totScore);
       if (totScore === randNumber) {
@@ -66,7 +66,7 @@ $(document).ready(() => {
       }
   });
 
-  $('#yellow-crystal').click(() => {
+  $('#yellow').click(() => {
       totScore = totScore + yellowCrystal;
       $('#totScore').text(totScore);
       if (totScore === randNumber) {
